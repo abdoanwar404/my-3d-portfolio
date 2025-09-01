@@ -10,7 +10,8 @@ It showcases my projects and skills in a visually engaging way, with smooth anim
 - Showcases projects and skills
 
 ## 📸 Preview
-![Portfolio Screenshot](link-to-screenshot.png)
+![Portfolio Screenshot](./public/assets/Screenshot 2025-09-01 201428.png)
+![Portfolio Screenshot](./public/assets/Screenshot 2025-09-01 201455.png)
 
 ## 🌐 Live Demo
 [Click here to view the live demo](https://your-portfolio-link.vercel.app)
