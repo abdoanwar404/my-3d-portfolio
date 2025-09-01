@@ -23,5 +23,5 @@ It showcases my projects and skills in a visually engaging way, with smooth anim
 
 ## 📬 Contact
 - **GitHub:** [abdoanwar404](https://github.com/abdoanwar404)  
-- **LinkedIn:** [Your LinkedIn Profile](https://linkedin.com/in/your-profile)  
-- **Email:** yourname@email.com
+- **LinkedIn:** [Abdulrhman Anwar](https://www.linkedin.com/in/abdulrahman-anwar-71469934b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app)  
+- **Email:** abdulrhmananwaramin@gmail.com
