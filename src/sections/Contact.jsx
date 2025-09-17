@@ -30,17 +30,16 @@ const Contact = () => {
     try {
       console.log("From submitted:", formData);
       await emailjs.send(
-        "service_79b0nyj",
-        "template_17us8im",
-        {
-          from_name: formData.name,
-          to_name: "Abdulrahman Anwar",
-          from_email: formData.email,
-          to_email: "abdulrhmananwaramin@gmail.com",
-          message: formData.message,
-        },
-        "pn-Bw_mS1_QQdofuV"
-      );
+  "service_x80jhqh",     // Service ID
+  "template_ans9elp",    // Template ID
+  {
+    name: formData.name,    // لازم تكون {{name}}
+    email: formData.email,  // لازم تكون {{email}}
+    message: formData.message
+  },
+  "okhxZkyriqwiTeO-T"    // Public Key
+);
+
       setIsLoading(false);
       setFormData({ name: "", email: "", message: "" });
       showAlertMessage("success", "You message has been sent!");

@@ -7,12 +7,18 @@ import { useMediaQuery } from "react-responsive";
 import { easing } from "maath";
 import { Suspense } from "react";
 import Loader from "../components/Loader";
+import MyPhoto from "../components/my-photo";
 
 const Hero = () => {
   const isMobile = useMediaQuery({ maxWidth: 853 });
   return (
     <section className="flex items-start justify-center min-h-screen overflow-hidden md:items-start md:justify-start c-space" id="home">
-      <HeroText />
+      <HeroText/>
+
+      <div className="my_photo md:absolute mt-20 ml-20 md:ml-40 md:mt-108">
+  <MyPhoto />
+      </div>
+
       <ParallaxBackground />
       <figure
         className="absolute inset-0"
